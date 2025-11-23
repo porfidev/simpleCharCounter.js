@@ -1,6 +1,6 @@
 {
   "name": "@porfidev/simple-char-counter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A lightweight jQuery plugin that adds a real-time character counter to any input or textarea. As you type, it displays the current number of characters, making it easy to track limits and improve form usability. Perfect for forms, text fields, and UI validations.",
   "keywords": [
     "jquery",
