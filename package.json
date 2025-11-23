@@ -1,6 +1,6 @@
 {
   "name": "@porfidev/simple-char-counter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/",
     "access": "public"
