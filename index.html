@@ -3,44 +3,63 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Simplecharcounter.js by elporfirio</title>
+    <title>Simplecharcounter.js by porfidev</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <h1>Simplecharcounter.js</h1>
+        <h1>SimpleCharCounter.js</h1>
         <p>Jquery plugin, simulate the character counter like counter in twitter (old version). See examples and readme for more details.</p>
-        <p>My first plugin ever, made with &lt;3 and some blood. (ouch) </p>
-        <p class="view"><a href="https://github.com/elporfirio/simpleCharCounter.js">View the Project on GitHub <small>elporfirio/simpleCharCounter.js</small></a></p>
+        <p>My first plugin ever, made with ❤️. </p>
+        <p class="view"><a href="https://github.com/porfidev/simpleCharCounter.js">View the Project on GitHub <small>@porfidev/simpleCharCounter.js</small></a></p>
 
 
         <ul>
-          <li><a href="https://github.com/elporfirio/simpleCharCounter.js/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/elporfirio/simpleCharCounter.js/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/elporfirio/simpleCharCounter.js">View On <strong>GitHub</strong></a></li>
+          <li><a href="https://github.com/porfidev/simpleCharCounter.js/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/porfidev/simpleCharCounter.js/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/porfidev/simpleCharCounter.js">View On <strong>GitHub</strong></a></li>
         </ul>
       </header>
       <section>
         <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is simpleCharCounter.js</h3>
+<a id="welcome-to-github-pages" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is simpleCharCounter.js</h3>
 
-<p>Is the simplest way to count characters over <code>input</code> and <code>textarea</code> elements.</p>
-<p>No design, no complex functions, only a few option. Just apply your favorite flavour for obtain better results. </p>
-<h3>Requirements</h3>
+<p>The simplest way to count characters in <code>input</code> and <code>textarea</code> elements.
+    <strong>No design, no complex features</strong>—just a few options. Apply your own style to get the best results.</p>
+<h2>Requirements</h2>
 <ul>
   <li>jQuery 1.9+</li>
-  <li>Chrome, Firefox or a decent web explorer</li>
 </ul>
 
-<h3>How to install</h3>
-<p>Download or clone the project, and add simpleCC.js to your HTML document.</p>
+<h2>How to install</h2>
+    <h3>NPM</h3>
+    <pre>npm i @porfidev/simple-char-counter</pre>
+
+          <h3>Manual install</h3>
+<p>Download or clone the project and add simpleCC.js to your HTML document.</p>
+
+          <h2>Usage</h2>
+          <strong>via npm</strong>
+          <pre>
+import * as $ from 'jquery';
+import '@porfidev/simple-char-counter';
+
+$('div').simpleCharCounter({
+    maxChars: 100,
+    counterElement: 'span'
+});
+          </pre>
+
+          <strong>via manual import</strong>
+          <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%;"><span></span>&lt;<span style="color: #070">script</span> <span style="color: #00C">src</span><span style="color: #333">=</span><span style="background-color: #FFF0F0">&quot;https://code.jquery.com/jquery-3.7.1.min.js&quot;</span>&gt;&lt;/<span style="color: #070">script</span>&gt;
+&lt;<span style="color: #070">script</span> <span style="color: #00C">src</span><span style="color: #333">=</span><span style="background-color: #FFF0F0">&quot;simpleCC.min.js&quot;</span>&gt;&lt;/<span style="color: #070">script</span>&gt;
+</pre></div>
+
+          <div style="height: 2rem"></div>
 <h3>
   <a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Demo 01: Simple Usage</h3>
 <pre style='color:#000000;background:#ffffff;'>$<span style='color:#808030; '>(</span><span style='color:#800000; '>"</span><span style='color:#0000e6; '>#demo3</span><span style='color:#800000; '>"</span><span style='color:#808030; '>)</span><span style='color:#808030; '>.</span>simpleCharCounter<span style='color:#808030; '>(</span><span style='color:#800080; '>{</span>
@@ -127,25 +146,25 @@
 <p>Thank you to <a href="https://github.com/zetta" class="user-mention">@zetta</a> for the first try of this plugin.      </p>
       </section>
       <footer>
-        <p>This project is maintained by <a href="https://github.com/elporfirio">elporfirio</a></p>
+        <p>This project is maintained by <a href="https://github.com/porfidev">porfidev</a></p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="simpleCC.min.js"></script>
-    
+
 <script>
 $(document).ready(function(e) {
-    
+
     /*  DEMO 1  */
 	$("#demo1").simpleCharCounter();
-    
+
     /*  DEMO 2  */
     $("#demo2").simpleCharCounter({
         label: "#counter"
     });
-    
+
     /*  DEMO 3  */
 	$("#demo3").simpleCharCounter({
         max: 10
