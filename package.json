@@ -38,6 +38,8 @@
     "build:esm": "mkdir -p dist && terser ./simpleCC.js -o dist/index.mjs --compress --mangle",
     "build": "npm run build:cjs && npm run build:esm",
     "prepublishOnly": "npm run build",
+    "publish:npm": "npm publish --registry=https://registry.npmjs.org/ --access public",
+    "publish:github": "npm publish --registry=https://npm.pkg.github.com/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
